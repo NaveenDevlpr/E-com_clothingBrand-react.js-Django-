@@ -1,0 +1,59 @@
+.banner-main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.banner-content-container{
+    position: absolute;
+    top: 40%;
+    padding: 0% 8%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: rgb(255, 246, 218);
+    font-family: 'Montserrat';
+    width: 100%;
+}
+
+.banner-content{
+    position: relative;
+}
+.banner-content h2{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    
+}
+
+.banner-content p{
+    font-size: 15px;
+    color:rgb(255, 246, 218);
+    margin-top: 15px;
+    line-height: 1.2;
+    width: 48%;
+    word-wrap: break-word;
+    line-height: 1.5;
+    
+}
+.banner-button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #222;
+    right: 25%;
+    padding:10px;
+    width:120px;
+    border: 1.75px solid rgb(255, 246, 218);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    background: transparent;
+    color: rgb(255, 246, 218);
+    font-size: 13px;
+    margin-bottom: 8px;
+}

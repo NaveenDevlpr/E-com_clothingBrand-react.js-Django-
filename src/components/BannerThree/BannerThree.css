@@ -1,0 +1,98 @@
+.bannerThree-main{
+    margin-top: 4%;
+    width: 100%;
+}
+
+.lineSpace{
+    width:100%;
+    height: 100px;
+    background: #222;
+    white-space: nowrap;
+    overflow:hidden ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moveText{
+    
+    animation: moveText 28s linear infinite;
+    position:absolute;
+    color: rgb(255, 246, 218);
+    width: 100%;
+    font-family: 'Satisfy';
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+@keyframes moveText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .contents{
+    height: 450px; 
+    display: flex;
+    align-items: center;
+    background: rgb(255, 238, 173);
+    border: 1.5px solid #222;
+    border-radius: 10px;
+    margin: 4% 8%;
+  }
+
+  .contents .offer{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#222;
+    font-family: 'Montserrat';
+}
+
+.offer h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}   
+
+.offer h2:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.offer p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+  .contents .imgContainer{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+   border-radius: 10px;
+  }
+
+
+.imgContainer img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.vl{
+    border-left: 1px solid #222;
+    height: 100%;
+}
